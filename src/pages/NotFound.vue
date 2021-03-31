@@ -6,7 +6,7 @@
       <h1 class="text-4xl text-gray-700 mb-2">Not Found</h1>
       <span class="text-lg text-gray-700"
         >Back to
-        <router-link to="/" class="text-blue-500">Home</router-link></span
+        <router-link to="/" class="text-indigo-500">Home</router-link></span
       >
     </div>
   </div>
