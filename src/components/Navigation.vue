@@ -64,18 +64,20 @@
         <div
           class="flex-1 flex items-center justify-center sm:items-stretch sm:justify-start"
         >
-          <div class="flex-shrink-0 flex items-center">
+          <router-link class="flex-shrink-0 flex items-center" to="/">
             <img
               class="block lg:hidden h-8 w-auto"
-              src="https://tailwindui.com/img/logos/workflow-mark-indigo-600.svg"
+              src="/logo.png"
               alt="Workflow"
             />
             <img
-              class="hidden lg:block h-8 w-auto"
-              src="https://tailwindui.com/img/logos/workflow-logo-indigo-600-mark-gray-800-text.svg"
+              class="hidden lg:block h-8 w-auto mr-2"
+              src="/logo.png"
               alt="Workflow"
             />
-          </div>
+            <span class="text-lg font-medium text-white border border-indigo-700 bg-indigo-700 px-1 rounded-l">My</span>
+            <span class="text-lg font-medium text-indigo-700 border border-indigo-700 bg-gray-100 rounded-r px-1">Store</span>
+          </router-link>
           <div class="hidden sm:ml-6 sm:flex sm:space-x-8">
             <!-- Current: "border-indigo-500 text-gray-900", Default: "border-transparent text-gray-500 hover:border-gray-300 hover:text-gray-700" -->
             <router-link
